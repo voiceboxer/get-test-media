@@ -1,0 +1,29 @@
+{
+  "name": "get-test-media",
+  "version": "1.0.0",
+  "description": "Generate a dummy MediaStream",
+  "main": "index.js",
+  "scripts": {
+    "demo-watch": "wzrd demo/index.js:demo/bundle.js",
+    "demo-build": "browserify demo/index.js -o demo/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voiceboxer/get-test-media.git"
+  },
+  "keywords": [
+    "canvas",
+    "audiocontext",
+    "media",
+    "stream"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voiceboxer/get-test-media/issues"
+  },
+  "homepage": "https://github.com/voiceboxer/get-test-media#readme",
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "wzrd": "^1.5.0"
+  }
+}
